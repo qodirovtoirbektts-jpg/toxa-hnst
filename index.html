@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNST (Toxa) — 100% Qayta Ishlangan Sirkulyar Denim & Ekologik Jinsilar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Eco Impact Ticker -->
+  <div class="eco-ticker">
+    <span>♻️ 0 LITR TOZA SUV ISROF QILINDI • 100% SIKLIK QAYTA ISHLANGAN TOLALAR • ZARARLI KIMYOVIY MODDALARSIZ</span>
+  </div>
+
+  <!-- Header -->
+  <header class="hnst-header">
+    <div class="container header-grid">
+      <div class="h-left">
+        <a href="#fit-finder">Fasonlar</a>
+        <a href="#collection">Kolleksiya</a>
+        <a href="#circular">Sirkulyar Texnologiya</a>
+      </div>
+
+      <div class="h-center">
+        <a href="#" class="hnst-logo">HNST<span class="hnst-toxa">Toxa</span></a>
+      </div>
+
+      <div class="h-right">
+        <div class="eco-cart" id="cartTrigger">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-pill" id="cartBadge">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hnst-hero">
+    <div class="container hero-content">
+      <span class="tag-denim">Barqaror Moda Inqilobi</span>
+      <h1>Toza Vijdon Bilan Kiyiladigan <span class="text-denim">Mukammal Denim</span></h1>
+      <p>
+        An'anaviy jinsi ishlab chiqarishda 7,000 litr toza suv sarflanadi. HNST esa eski paxta va tashlab yuborilgan kiyimlarni qayta ishlab, dunyodagi eng toza va bardoshli jinsilarni yaratadi.
+      </p>
+      <div class="hero-actions">
+        <a href="#fit-finder" class="btn btn-copper btn-lg">O'z Fasoningizni Toping</a>
+        <a href="#collection" class="btn btn-outline-denim btn-lg">Kolleksiyani Ko'rish</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Denim Fit Finder -->
+  <section class="section" id="fit-finder">
+    <div class="container">
+      <div class="section-title text-center">
+        <span class="sub-denim">Interaktiv Tanlov</span>
+        <h2>O'zingizga Mos Denim Fasonini Tanlang</h2>
+      </div>
+
+      <div class="fit-finder-box">
+        <div class="fit-buttons">
+          <button class="fit-btn active" data-fit="straight">Klassik To'g'ri (Straight Leg)</button>
+          <button class="fit-btn" data-fit="wide">Erkin Keng (Wide Leg)</button>
+          <button class="fit-btn" data-fit="slim">Tana Bo'ylab (Slim Fit)</button>
+          <button class="fit-btn" data-fit="flared">Retro Klesh (Flared)</button>
+        </div>
+
+        <div class="fit-display-card">
+          <div class="fit-visual">
+            <div class="denim-sample-patch" id="fitPatch">
+              <span class="denim-watermark">100% RECYCLED COTTON</span>
+            </div>
+          </div>
+          <div class="fit-details">
+            <h3 id="fitTitle">Klassik To'g'ri (Straight Leg)</h3>
+            <p id="fitDesc">Vaqt sinovidan o'tgan universal qolip. Har qanday poyabzal va uslub bilan mos tushadi. 13.5 oz zichlikdagi qayta ishlangan xom denim.</p>
+            <div class="fit-specs">
+              <div><strong>Balandlik:</strong> O'rta bel (Mid Rise)</div>
+              <div><strong>Tarkib:</strong> 80% qayta ishlangan paxta, 20% organik paxta</div>
+              <div><strong>Tugmalar:</strong> Qayta ishlangan sof mis</div>
+            </div>
+            <div class="fit-order-row">
+              <span class="fit-price" id="fitPrice">$165.00</span>
+              <button class="btn btn-copper" id="btnAddFitToCart">Savatga Qo'shish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Circular Lifecycle -->
+  <section class="section bg-ecru" id="circular">
+    <div class="container">
+      <div class="section-title text-center">
+        <span class="sub-denim">Zero Waste</span>
+        <h2>HNST Sirkulyar Tiklanish Zanjiri</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Eski Kiyimlar Yig'uvi</h3>
+          <p>Yevropa bo'ylab foydalanilgan kiyimlar yig'iladi va tolalari bo'yicha saralanadi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Mexanik Tolalash</h3>
+          <p>Hech qanday zaharli kislotalarsiz tolalar qayta iplarga aylantiriladi.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Tabiiy Indigo Bo'yog'i</h3>
+          <p>Suvni ifloslantirmaydigan patentlangan elektro-kimyoviy tabiiy rang berish.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">04</div>
+          <h3>Cheksiz Qayta Ishlash</h3>
+          <p>Jinsingiz eskirgach, bizga qaytaring va yangisiga 20% chegirma oling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="hnst-footer">
+    <div class="container footer-content">
+      <div class="f-brand">
+        <h2>HNST <span class="hnst-toxa">Toxa</span></h2>
+        <p>Kelajak avlod uchun toza va mas'uliyatli sirkulyar denim.</p>
+        <small>© 2026 Toxa (qodirovtoirbektts-jpg). Barcha huquqlar himoyalangan.</small>
+      </div>
+      <div class="f-col">
+        <h4>Katalog</h4>
+        <a href="#fit-finder">Erkaklar jinsilari</a>
+        <a href="#fit-finder">Ayollar jinsilari</a>
+        <a href="#">Denim kurtkalar</a>
+      </div>
+      <div class="f-col">
+        <h4>Ekologiya</h4>
+        <a href="#circular">Sirkulyar model</a>
+        <a href="#">Suv hisoboti</a>
+        <a href="#">Kiyimlarni topshirish</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-hnst" id="hnstToast">Savatga qo'shildi</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
